@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+.root {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    overflow-y: auto;
+    overflow-x: visible;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.left {
+    display: flex;
+    overflow-x: visible;
+    flex-direction: column;
+    background: #4FCBBB;
+}
+
+.container3 {
+    flex: 1;
+    display: flex;
+}
+
+.container4 {
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: visible;
+    display: flex;
+    flex-direction: column;
+}
+
+.example {
+    flex: 1;
+    height: 5555px;
+    background: #ef79A7;
+}
+
+.right {
+    width: 20%;
+    background: #2494CC;
+}
+
+.header,
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ECF7dd;
+}
+
+.footer {
+    background: #FFAE90;
+}
