@@ -1,0 +1,14 @@
+.mycluster {
+    width: 40px;
+    height: 40px;
+    background-color: greenyellow;
+    text-align: center;
+    font-size: 24px;
+}
+
+.map-circle {
+    background-color: #00a2ffaa;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
